@@ -17,7 +17,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
-    "homepage": "https://github.com/PHPOffice/PhpSpreadsheet",
+    "homepage": "https://github.com/julien-its/PhpSpreadsheet",
     "type": "library",
     "license": "MIT",
     "authors": [
