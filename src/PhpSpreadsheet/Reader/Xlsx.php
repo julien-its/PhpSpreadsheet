@@ -1192,8 +1192,9 @@ class Xlsx extends BaseReader
 
                                                 $hfImages[(string) $shape['id']]->setPath('zip://' . File::realpath($filename) . '#' . $drawings[(string) $imageData['relid']], false);
                                                 $hfImages[(string) $shape['id']]->setResizeProportional(false);
-                                                $hfImages[(string) $shape['id']]->setWidth($style['width']);
-                                                $hfImages[(string) $shape['id']]->setHeight($style['height']);
+                                                // comment these two line, we do not use it for ecbc project
+                                                //$hfImages[(string) $shape['id']]->setWidth($style['width']);
+                                                //$hfImages[(string) $shape['id']]->setHeight($style['height']);
                                                 if (isset($style['margin-left'])) {
                                                     $hfImages[(string) $shape['id']]->setOffsetX($style['margin-left']);
                                                 }
